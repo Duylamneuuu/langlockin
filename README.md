@@ -204,6 +204,11 @@ lock-in-beat/
 
 ## Troubleshooting
 
+**Missing asset errors:**
+- If you see "Unable to resolve asset" errors, run `npx expo start -c` to clear the cache
+- Ensure `assets/images/` contains all placeholder files (icon.png, peaceful-sunset.jpg, etc.)
+- The app includes placeholder images for icons and splash screens
+
 **Music not playing:**
 - Ensure MP3 files are in `assets/music/` with correct names
 - Check that files are properly loaded in the project
