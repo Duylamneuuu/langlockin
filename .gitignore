@@ -16,5 +16,11 @@ android/
 .env
 .env.local
 
+# Firebase configuration (use local config)
+src/services/firebase.ts
+
+# Music files (local only)
+assets/music/*.mp3
+
 # macOS
 .DS_Store
